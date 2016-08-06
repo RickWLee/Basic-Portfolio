@@ -17,15 +17,19 @@
 
 .bgimage{
 	background-image: url(../images/bgimg.png);
-	height: 650px;
+	height: 800px;
 
 }
 
 #uline1{
+	
 	border-bottom: 2px solid #cccccc;
+	padding: 20px
+
 }
 #uline2{
 	border-bottom: 1px solid #cccccc;
+	padding: 5px;
 
 }
 
@@ -65,7 +69,7 @@ body {
 	height: 200px;
 	margin-right: 20px;
 }
-
+/* aside*/
 #name{
 	box-sizing: border-box;
 	text-align: center;
@@ -75,14 +79,16 @@ body {
 	color:#ffffff;
 	background: #4aaaa5;
 	margin-top: 20px;
-
-	
 }
+
+
+
 #navagation{
 	margin-top:45px;
 	margin-right: 20px;
 	padding: 3px; 
 	float:right;
+
 }
 
 a{
@@ -123,16 +129,45 @@ a{
 
 #contact-info{
 	width: :270px;
-	padding: 10px;
+	padding: 15px;
 	background-color: #ffffff;
 	margin-left: 30px;
 	margin-top:20px;
 	text-align: center;
 }
 
+.portimg{
+	width: 40%;
+	height: 60%;
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#gameimage1,#gameimage2{
+	float: left;
+
+}
+#img3,#img4{
+	float: left;
+}
+
+#img5{
+	float:left;
+}
 #footer{
 	font-size:16px;
 }
+
+.frame{
+	box-sizing: content-box;
+	text-align: left;
+	float: left;
+	margin:auto;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom:30px;
+}
+
 
 footer {
 	clear:both;
@@ -151,5 +186,44 @@ aside {
 	padding: 20px;
 	height: 65px;
 	border: 1px solid #eee;
+
+}
+
+#gameimage1{
+	position:relative;
+	width: 100;
+	bottom: 0;
+
+}
+#gameimage2{
+	position:relative;
+	width: 100%;
+	bottom: 0;
+}
+
+
+}
+#img1{
+	position:absolute;
+	top: 100px;
+	left:100px;
+	width:50%;
+}
+#img2{
+	position:absolute;
+	top: 100px;
+	left:100px;
+	width: 50%;
+
+}
+
+input[text=text]{
+	width: 600px;
+	padding: 15px 20px;
+	border: 1px solid #dddddd;
+	margin: 10px 0;
+	box-sizing: border-box;
+	font-size: 16px;
+
 
 }
