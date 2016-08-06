@@ -11,13 +11,13 @@
 
 .heading2 {
 	color: #4aaaa5;
-	font-size: 20px;
+	font-size: 24px;
 
 }
 
 .bgimage{
-	background-color: #eee;
-	height: 600px;
+	background-image: url(../images/bgimg.png);
+	height: 650px;
 
 }
 
@@ -32,7 +32,10 @@
 h3{
 	color:#4aaaa5;
 }
-
+p{
+	margin-top:10px;
+	line-height: 200%
+}
 
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -41,12 +44,13 @@ body {
 	font-size: 18px;
 	color: #777777;
 	width: 960px;
+
 }
 
 .container{
 	box-sizing: border-box;
 	margin:0 auto;
-
+	padding: 5px;
 
 }
 
@@ -72,11 +76,11 @@ body {
 	background: #4aaaa5;
 	margin-top: 20px;
 
-
 	
 }
 #navagation{
 	margin-top:45px;
+	margin-right: 20px;
 	padding: 3px; 
 	float:right;
 }
@@ -84,7 +88,9 @@ body {
 a{
 	color:#777777;
 	text-decoration: none;
+
 }
+
 #portfolio{
 	padding: 10px;
 	margin-top:25px;
@@ -108,9 +114,9 @@ a{
 #main-bio{
 	width: 640px;
 	background-color: #ffffff;
-	padding: 10px;
+	padding: 20px;
 	margin-top:20px;
-	margin-left: 40px;
+	margin-left: 35px;
 
 
 }
@@ -119,12 +125,14 @@ a{
 	width: :270px;
 	padding: 10px;
 	background-color: #ffffff;
-	margin-left: 20px;
+	margin-left: 30px;
 	margin-top:20px;
 	text-align: center;
 }
 
-
+#footer{
+	font-size:16px;
+}
 
 footer {
 	clear:both;
